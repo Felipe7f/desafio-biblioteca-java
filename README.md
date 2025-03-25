@@ -8,7 +8,7 @@ Big Game Survey é uma aplicação full stack web e mobile construída durante a
 A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
 
 ## Modelo conceitual
-![Modelo Conceitual](https://github.com/acenelio/assets/raw/main/sds1/modelo-conceitual.png)
+![Modelo Conceitual](https://github.com/Felipe7f/desafio-biblioteca-java/blob/master/assets/modelo-conceitual.png)
 
 # Tecnologias utilizadas
 - Java
