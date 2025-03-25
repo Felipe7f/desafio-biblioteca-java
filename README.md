@@ -51,6 +51,11 @@ Sistema completo para gerenciamento de acervo bibliotecário desenvolvido como d
 
 - Este projeto está sob a licença MIT - veja o arquivo [LICENSE](https://github.com/Felipe7f/desafio-biblioteca-java/blob/master/LICENSE) para detalhes.
 
+## 🔖 Tags
+
+`#java` `#desafio` `#poo` `#consoleapp` `#biblioteca` 
+`#programação` `#alura` `#bootcamp` `#github` `#opensource`
+
 ## 🚀 Como Executar
 
 ### Pré-requisitos
