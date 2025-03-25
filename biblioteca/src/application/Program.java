@@ -23,7 +23,7 @@ public class Program {
             System.out.println();
             System.out.println("----- MENU -----\n");
 
-            System.out.println("Escolha as opções de acordo com oque você quiser:");
+            System.out.println("Escolha as opções de acordo com oque você quisear:");
 
             System.out.println("1. Adicionar livro ");
             System.out.println("2. Remover livro  ");
