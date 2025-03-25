@@ -12,8 +12,6 @@ public class Program {
         Scanner sc =  new Scanner(System.in);
 
         Biblioteca biblioteca = new Biblioteca();
-        Livro livro = new Livro();
-        CategoriaLivro categoria;
 
         biblioteca.addLivro(new Livro("1984", "George Orwell", 1949, CategoriaLivro.FICCAO, true));
         biblioteca.addLivro(new Livro("Clean Code", "Robert Martin", 2008, CategoriaLivro.TECNICO, true));
@@ -23,7 +21,7 @@ public class Program {
             System.out.println();
             System.out.println("----- MENU -----\n");
 
-            System.out.println("Escolha as opções de acordo com oque você quisear:");
+            System.out.println("Escolha as opções de acordo com oque você quiser:");
 
             System.out.println("1. Adicionar livro ");
             System.out.println("2. Remover livro  ");
