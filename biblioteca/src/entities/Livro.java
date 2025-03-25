@@ -7,17 +7,17 @@ public class Livro {
     private String autor;
     private Integer anoPublicacao;
     CategoriaLivro categoria;
-    private boolean emprestar;
+    private boolean disponivel;
 
     public Livro() {
     }
 
-    public Livro(String titulo, String autor, Integer anoPublicacao, CategoriaLivro categoria, boolean emprestado) {
+    public Livro(String titulo, String autor, Integer anoPublicacao, CategoriaLivro categoria, boolean disponivel) {
         this.titulo = titulo;
         this.autor = autor;
         this.anoPublicacao = anoPublicacao;
         this.categoria = categoria;
-        this.emprestar = emprestado;
+        this.disponivel = disponivel;
     }
 
     public String getTitulo() {
@@ -53,10 +53,10 @@ public class Livro {
     }
 
     public boolean isDisponivel() {
-        return emprestar;
+        return disponivel;
     }
 
     public void setDisponivel(boolean emprestar) {
-        this.emprestar = emprestar;
+        this.disponivel = emprestar;
     }
 }
