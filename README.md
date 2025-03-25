@@ -1,20 +1,69 @@
-# Big Game Survey 
-[![NPM](https://img.shields.io/npm/l/react)](https://github.com/Felipe7f/desafio-biblioteca-java/blob/master/LICENSE)
+# 📚 Sistema de Gerenciamento de Biblioteca em Java
 
-# Sobre o projeto
+[![NPM](https://img.shields.io/badge/license-MIT-green)](https://github.com/Felipe7f/desafio-biblioteca-java/blob/master/LICENSE)
+![Java](https://img.shields.io/badge/Java-17-blue)
 
-Big Game Survey é uma aplicação full stack web e mobile construída durante a 1ª edição da **Semana DevSuperior** (#sds1), evento organizado pela [DevSuperior](https://devsuperior.com "Site da DevSuperior").
+## 📌 Sobre o projeto
 
-A aplicação consiste em uma pesquisa de preferência de games, onde os dados são coletados no app mobile, e depois são listados no app web, que também apresenta um dashboard com gráficos baseados nestes dados.
+Sistema completo para gerenciamento de acervo bibliotecário desenvolvido como desafio de programação em Java, com:
 
-## Modelo conceitual
-![Modelo Conceitual](https://github.com/Felipe7f/desafio-biblioteca-java/blob/master/assets/modelo-conceitual.png)
+- Cadastro e remoção de livros
+- Controle de empréstimos e devoluções
+- Diversos filtros de busca
+- Interface amigável via console
 
-# Tecnologias utilizadas
-- Java
+## 🛠️ Funcionalidades
 
-# Autor
+✅ **Cadastro de livros**  
+- Título, autor, ano de publicação  
+- Categorias pré-definidas (Ficção, Técnico, etc.)  
 
-Felipe Freire Ferreira
+🔍 **Sistema de buscas**  
+- Por título 
+- Por categoria  
+- Por disponibilidade  
 
-https://www.linkedin.com/in/felipe-freire-577924354/
+🔄 **Controle de empréstimos**  
+- Empréstimo de livros disponíveis  
+- Devolução de livros emprestados  
+- Status automático de disponibilidade  
+
+📋 **Relatórios**  
+- Listagem completa do acervo  
+- Listagem filtrada por disponibilidade/categoria  
+
+## 🧠 Conceitos Aplicados
+
+- **POO**: Classes, encapsulamento, composição
+- **Enums**: Para categorias de livros
+- **Collections**: `ArrayList` para armazenamento
+- **StringBuilder**: Manipulação eficiente de strings
+- **Tratamento básico de erros**: Validações e mensagens claras
+
+## 📌 O Que Aprendi
+
+- Implementação prática de enums
+- Uso de StringBuilder para melhor performance
+- Controle de fluxo com menus interativos
+- Melhores práticas de organização de código Java
+
+## 📝 Licença
+
+- Este projeto está sob a licença MIT - veja o arquivo [LICENSE](https://github.com/Felipe7f/desafio-biblioteca-java/blob/master/LICENSE) para detalhes.
+
+## 🚀 Como Executar
+
+### Pré-requisitos
+- JDK 17+ instalado
+
+### Passo a passo
+```bash
+# Clone o repositório
+git clone https://github.com/Felipe7f/desafio-biblioteca-java.git
+
+# Navegue até o diretório
+cd desafio-biblioteca-java
+
+# Compile e execute
+javac -d bin src/application/Program.java
+java -cp bin application.Program
